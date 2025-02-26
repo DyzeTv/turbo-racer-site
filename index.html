@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turbo Racer</title>
+    <title>Turbo Racer - Jeu de voiture 2D</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Turbo Racer</h1>
-    <iframe src="index.html" width="800" height="600" style="border:none;"></iframe>
+
+    <!-- Navigation -->
+    <header>
+        <h1>Turbo Racer</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#jeu">Le Jeu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <h2>Le jeu de course ultime sur les pays du monde !</h2>
+        <p>Affrontez des circuits inspirés de différents pays et devenez le champion de Turbo Racer !</p>
+        <a href="https://tonlien.gdevelop.app" class="btn">Jouer Maintenant</a>
+    </section>
+
+    <!-- Section Présentation du Jeu -->
+    <section id="jeu">
+        <h2>À propos du jeu</h2><p>Turbo Racer est un jeu de voiture en 2D où vous traversez des circuits inspirés des routes du monde entier.</p>
+        <p>🚗 Choisissez votre voiture et partez à l'aventure !</p>
+        <p>🌎 Chaque niveau représente un pays avec ses propres défis.</p>
+        <p>🏆 Mode solo : battez les meilleurs temps et débloquez de nouvelles cartes.</p>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Des suggestions ? Un bug ? Contactez-nous !</p>
+        <form>
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Turbo Racer - Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
